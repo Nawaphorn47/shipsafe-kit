@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShipSafe Kit — Ship AI-built apps that actually work</title>
+  <meta name="description" content="AI App Builder OS: a Notion system that takes your AI-built app from idea to spec, features, bugs, a security-first launch checklist and post-launch tracking.">
+  <meta property="og:title" content="ShipSafe Kit — Ship AI-built apps that actually work">
+  <meta property="og:description" content="A Notion system for vibe coders: idea → spec → features → bugs → launch checklist → post-launch.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.5 4.5 7v8.2c0 7 4.9 12.6 11.5 14.3 6.6-1.7 11.5-7.3 11.5-14.3V7L16 2.5Z" fill="currentColor" style="color:var(--accent)"/><path d="m10.5 16.2 3.8 3.8 7.4-7.6" fill="none" stroke="var(--accent-ink)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      ShipSafe Kit
+    </a>
+    <nav class="nav">
+      <a class="hide-sm" href="#inside">What's inside</a>
+      <a class="hide-sm" href="#faq">FAQ</a>
+      <a class="btn btn-primary btn-sm" href="#pricing">Get the template</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Notion template · for vibe coders</span>
+        <h1>AI writes the code.<br>This keeps it shippable.</h1>
+        <p class="lead"><strong>AI App Builder OS</strong> is a Notion system that walks your AI-built app from idea to spec, features, bugs, a security-first launch checklist and life after launch, so you ship something that works, stays safe and is easy to maintain.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#pricing">Get it for $19</a>
+          <a class="btn btn-ghost" href="#inside">See what's inside</a>
+        </div>
+        <p class="hero-note">One-time payment · Instant access · Works on Notion's free plan</p>
+      </div>
+
+      <div class="board" role="img" aria-label="Preview of the Project pipeline board in AI App Builder OS">
+        <div class="board-top"><span class="dots"><i></i><i></i><i></i></span><b>🚀 Project pipeline</b></div>
+        <div class="cols">
+          <div>
+            <div class="col-h"><span class="pill p-gray">💡 Idea</span></div>
+            <div class="card"><b>Habit Streak Bot</b><span class="pill p-yellow">Validation 4/10</span></div>
+          </div>
+          <div>
+            <div class="col-h"><span class="pill p-blue">🔨 Building</span></div>
+            <div class="card"><b>SplitEasy</b>Launch readiness<div class="meter"><span style="width:25%"></span></div></div>
+            <div class="card"><b>⚠️ RLS on all tables</b><span class="pill p-red">Needs review</span></div>
+          </div>
+          <div>
+            <div class="col-h"><span class="pill p-green">🛠 Maintaining</span></div>
+            <div class="card"><b>CampusRide</b><span class="pill p-green">141 weekly users</span></div>
+            <div class="card"><b>🐞 Trip stuck on signal loss</b><span class="pill p-green">✅ Fixed</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <h2>Building with AI is fast. Shipping is still hard.</h2>
+      <p class="section-intro">Claude, ChatGPT, Gemini or Cursor will happily write thousands of lines for you. What they won't do is keep track of what you're building, or tell you it's not safe to launch yet.</p>
+      <ul class="problem-list">
+        <li>You start a new chat and the AI has forgotten every decision you made last week.</li>
+        <li>The same bug comes back because nobody wrote down why it happened.</li>
+        <li>You launch, then find out the database was readable by anyone with the public key.</li>
+        <li>After launch you have no idea what users want, so you build the wrong next feature.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="inside">
+    <div class="wrap">
+      <h2>What's inside</h2>
+      <p class="section-intro">Six connected Notion databases, a guided setup page and a spec template, all pre-filled with realistic sample projects so you can see how it works before adding your own.</p>
+      <div class="flow" aria-label="Workflow">
+        <span>💡 Idea</span><em>→</em><span>📝 Spec</span><em>→</em><span>🧩 Features</span><em>→</em><span>🐞 Bugs</span><em>→</em><span>✅ Launch checklist</span><em>→</em><span>📈 Post-launch</span>
+      </div>
+      <div class="grid-3">
+        <div class="tile"><span class="icon">🚀</span><h3>Projects</h3><p>A pipeline board from idea to maintenance, with automatic launch-readiness % and bug count per project.</p></div>
+        <div class="tile"><span class="icon">🧩</span><h3>Features</h3><p>User stories, acceptance criteria and sizing. A "Needs your review" view flags anything touching auth, money or personal data that you haven't read yet.</p></div>
+        <div class="tile"><span class="icon">🐞</span><h3>Bugs</h3><p>Repro steps, severity and a required root cause, so you (and your AI) never fix the same bug twice.</p></div>
+        <div class="tile"><span class="icon">✅</span><h3>Launch Checklist</h3><p>Checks across security, backups, payments, privacy, performance, monitoring, SEO and UX, each with a "how to verify" step.</p></div>
+        <div class="tile"><span class="icon">📈</span><h3>Post-Launch Log</h3><p>Weekly metrics, user feedback, incidents and decisions in one place, with an active-users chart.</p></div>
+        <div class="tile"><span class="icon">🧠</span><h3>Prompt Library</h3><p>Starter prompts for each stage: poke holes in an idea, plan before coding, root-cause debugging, security review.</p></div>
+      </div>
+      <div class="grid-2" style="margin-top:18px">
+        <div class="tile"><span class="icon">👋</span><h3>Start Here guide</h3><p>A 5-minute setup checklist, a weekly rhythm for building and after launch, and the 3 rules of shipping with AI.</p></div>
+        <div class="tile"><span class="icon">📄</span><h3>Spec Template</h3><p>Problem, scope, data model, security notes, plus an "AI context" block you paste at the start of every AI session.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <h2>Who it's for</h2>
+      <div class="grid-3">
+        <div class="tile"><h3>Vibe coders</h3><p>You build with AI tools and want a simple process that keeps projects from turning into a mess.</p></div>
+        <div class="tile"><h3>Indie hackers</h3><p>You juggle several side projects and want one place to see what's shipping and what's broken.</p></div>
+        <div class="tile"><h3>Developers learning to ship</h3><p>You can write code, and now you want the launch, security and maintenance habits that come with real users.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <h2>Get AI App Builder OS</h2>
+      <p class="section-intro">Pay once, keep it forever, including future updates to this template.</p>
+      <div class="pricing">
+        <div class="price-card">
+          <span class="eyebrow">Notion template</span>
+          <div class="price">$19 <small>USD · one-time</small></div>
+          <ul class="checklist">
+            <li>6 connected databases with ready-made views</li>
+            <li>Start Here guide and Spec Template</li>
+            <li>3 sample projects showing every stage</li>
+            <li>12-point launch checklist with "how to verify" steps</li>
+            <li>6 starter prompts for Claude, ChatGPT, Gemini and Cursor</li>
+            <li>Free updates to this template</li>
+          </ul>
+          <a id="buy-button" class="btn btn-primary" href="mailto:susawad2547@gmail.com?subject=Notify%20me%20when%20AI%20App%20Builder%20OS%20launches">Notify me at launch</a>
+          <p class="fine" id="buy-note">Store opening soon. Checkout is handled securely by Lemon Squeezy, our merchant of record.<br>14-day money-back guarantee · <a href="refund.html">Refund policy</a></p>
+        </div>
+        <div class="roadmap">
+          <h3>The ShipSafe Kit series</h3>
+          <p style="margin:0;color:var(--muted);font-size:15px">Each step builds on the same workflow.</p>
+          <ol>
+            <li class="now"><span class="n">1</span><span class="t"><b>AI App Builder OS</b><span>Notion template</span></span><span class="pill p-green">Available</span></li>
+            <li><span class="n">2</span><span class="t"><b>Prompt + Rules Pack</b><span>Stage-by-stage prompts, CLAUDE.md-style rules files and a security checklist for AI-written code</span></span><span class="pill p-gray">Coming soon</span></li>
+            <li><span class="n">3</span><span class="t"><b>Mini course: Ship a real app with AI</b><span>Make it work, make it safe, keep it maintainable, using a real multi-area ride platform as the case study</span></span><span class="pill p-gray">Coming soon</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section-alt">
+    <div class="wrap narrow">
+      <h2>FAQ</h2>
+      <details><summary>How do I get the template after buying?</summary><p>You'll get an email with a download containing your Notion link. Open it, click "Duplicate", and the whole system is copied into your own workspace.</p></details>
+      <details><summary>Do I need a paid Notion plan?</summary><p>No. Everything works on Notion's free plan, including the database relations, rollups and views.</p></details>
+      <details><summary>Which AI tools does it work with?</summary><p>Any of them. The template is tool-agnostic; the prompts are written for Claude, ChatGPT, Gemini and Cursor.</p></details>
+      <details><summary>Is this a coding course?</summary><p>No. It's a project system for planning, tracking and safely launching apps you build with AI. A mini course is planned as a separate product.</p></details>
+      <details><summary>Can I use it for client projects?</summary><p>Yes, you can use it for your own and your clients' projects. You can't resell or redistribute the template itself. See the <a href="terms.html">terms</a>.</p></details>
+      <details><summary>What if it's not for me?</summary><p>Email us within 14 days of purchase for a full refund. See the <a href="refund.html">refund policy</a>.</p></details>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap narrow" style="text-align:center">
+      <h2>About the maker</h2>
+      <p class="section-intro" style="margin:0 auto 24px">ShipSafe Kit is made by an independent developer from Thailand who built and runs a multi-area motorbike-taxi platform with driver earnings and admin dashboards. This template is the system I use to take AI-assisted projects from idea to production.</p>
+      <a class="btn btn-ghost" href="mailto:susawad2547@gmail.com">Say hello</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p><strong style="color:var(--text)">ShipSafe Kit</strong> · Digital products for building with AI</p>
+      <p>Contact: <a href="mailto:susawad2547@gmail.com">susawad2547@gmail.com</a></p>
+      <p>Made with help from AI tools; every template is designed, reviewed and tested by a human.</p>
+      <p>© <span id="year">2026</span> ShipSafe Kit. Notion is a trademark of Notion Labs, Inc. This product is not affiliated with Notion.</p>
+    </div>
+    <nav class="footer-links" aria-label="Legal">
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refunds</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // Paste your Lemon Squeezy checkout URL here once the store is activated.
+  const CHECKOUT_URL = "";
+
+  if (CHECKOUT_URL) {
+    const button = document.getElementById("buy-button");
+    button.href = CHECKOUT_URL;
+    button.textContent = "Buy now — $19";
+    document.getElementById("buy-note").innerHTML =
+      'Secure checkout by Lemon Squeezy, our merchant of record. Taxes calculated at checkout.<br>14-day money-back guarantee · <a href="refund.html">Refund policy</a>';
+  }
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
